@@ -12,13 +12,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Todos</a>
+          <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Todos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/categoria/depressao">Depressão</a>
+          <a class="nav-link" href="{{ route('home', 'depressao')}}">Depressão</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/categoria/ansiedade">Ansiedade</a>
+          <a class="nav-link" href="{{ route('home', 'ansiedade')}}">Ansiedade</a>
         </li>
       </ul>
     </div>
